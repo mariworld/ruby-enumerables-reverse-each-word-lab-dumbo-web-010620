@@ -10,5 +10,5 @@ def reverse_each_word(sentence)
   reversed = sentence.split
   revved = reversed.collect(&:reverse!)
   joint = revved.join(" ")
-  binding.pry
+  #binding.pry
 end
