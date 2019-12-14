@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   sentence.each do |n|
     reversed << sentence
   end
-  puts "This is #{n}"
+  reversed
 end
