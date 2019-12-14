@@ -1,6 +1,7 @@
 require 'pry'
 def reverse_each_word(sentence)
-  reversed = sentence.split
-  joint_sentence = reversed.each(&:reverse!)
+  split_sentence = sentence.split
+  joint_sentence = split_sentence(&:reverse!)
+  
     #binding.pry
 end
