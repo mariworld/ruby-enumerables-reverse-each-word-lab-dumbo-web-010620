@@ -1,5 +1,5 @@
 require 'pry'
 def reverse_each_word(sentence)
-  sentence.each_slice
+  sentence
   binding.pry
 end
