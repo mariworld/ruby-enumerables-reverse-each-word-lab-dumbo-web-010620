@@ -5,9 +5,9 @@ def reverse_each_word(sentence)
   joint = revved.join(" ")
 end
 
-def reverse_each_word(sentence)
-  reversed = sentence.split
-  revved = reversed.collect(&:reverse!)
-  joint = revved.join(" ")
-  binding.pry
-end
+# def reverse_each_word(sentence)
+#   reversed = sentence.split
+#   revved = reversed.collect(&:reverse!)
+#   joint = revved.join(" ")
+#   binding.pry
+# end
