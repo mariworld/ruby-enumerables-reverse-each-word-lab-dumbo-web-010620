@@ -5,5 +5,4 @@ def reverse_each_word(sentence)
   word.each do |n|
     puts n
   end
-  binding.pry
 end
